@@ -1,0 +1,13 @@
+import java.util.*;
+class Sum
+{
+public static void main(String [] args)
+{
+int z,sum=0;
+System.out.println("enter the n value");
+Scanner s=new Scanner(System.in);
+z=s.nextInt();
+sum=z * ( z+ 1) / 2;
+System.out.println("sum of " +z+ " is" + sum);
+}
+ }
