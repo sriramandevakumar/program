@@ -1,0 +1,13 @@
+import java.util.*;
+class Natural
+{
+public static void main(String [] args)
+{
+int z,sum=0;
+Scanner s=new Scanner(System.in);
+z=s.nextInt();
+for ( int i =1; i <= z ; i++)
+ sum=sum+i;
+System.out.println("sum of " +s+ "natural is" + sum);
+}
+ }
