@@ -1,6 +1,6 @@
 import java.util.*;
-public class Sum{
-public static void print_sums(){
+class Sum{
+public static void main(String [] arg){
 Scanner s= new Scanner(System.in);
 int z=s.nextInt();
 int sum = 0 ;
@@ -10,5 +10,6 @@ for(int j = 1 ; j <= i; j++ ){
 }
  System.out.println( sum) ;
  sum = 0 ;
+}
 }
 }
