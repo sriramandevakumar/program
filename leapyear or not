@@ -1,0 +1,13 @@
+import java.util.*;
+class Leap{
+public static void main(String[] argus)
+{
+Scanner input= new Scanner(System.in);
+System.out.println("enter the year");
+int y= input.nextInt();
+if(y%4==0)
+System.out.println(y+"is a leapyear");
+else
+System.out.println(y+"is not a leapyer");
+}
+}
