@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Flyodstriangle {
+public class floydstriangle {
 	
 	public static void main (String args[]){
 		int z=1;
