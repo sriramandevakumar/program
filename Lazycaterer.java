@@ -7,7 +7,7 @@ public class Lazycaterer {
 		int n=s.nextInt();
 		int p=((n*n)+n+2)/2;
 		for(int i=1;i<=n;i++){
-			System.out.println(p);
+			System.out.println(p+"");
 			p++;
 		}
 	}
